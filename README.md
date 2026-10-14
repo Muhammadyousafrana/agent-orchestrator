@@ -1,5 +1,7 @@
 Agent Orchestrator
 
+![Agent Orchestrator banner](assets/agent-orchestrator-banner.svg)
+
 Overview
 - Local web UI for running installed AI agent CLIs against a project folder.
 - Detects known CLIs on PATH, lets you add custom CLIs, assigns each selected agent a role, and runs a role-based workflow.

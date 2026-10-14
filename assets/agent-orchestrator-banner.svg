@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 560" role="img" aria-labelledby="title desc">
+  <title id="title">Agent Orchestrator</title>
+  <desc id="desc">A central orchestrator coordinates architect, builder, tester, and reviewer agents across a connected workflow.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#080d22"/><stop offset=".55" stop-color="#111b3c"/><stop offset="1" stop-color="#17143b"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#70f0df"/><stop offset="1" stop-color="#8c7cff"/></linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#56e7dc" stop-opacity=".18"/><stop offset=".5" stop-color="#8c7cff" stop-opacity=".8"/><stop offset="1" stop-color="#56e7dc" stop-opacity=".18"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#7467ff" stop-opacity=".24"/><stop offset="1" stop-color="#7467ff" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#a8b6ff" stroke-opacity=".055" stroke-width="1"/></pattern>
+    <filter id="shadow" x="-.3" y="-.4" width="1.6" height="1.8"><feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#020515" flood-opacity=".55"/></filter>
+    <filter id="soft"><feGaussianBlur stdDeviation="28"/></filter>
+  </defs>
+  <rect width="1600" height="560" rx="28" fill="url(#bg)"/>
+  <rect width="1600" height="560" rx="28" fill="url(#grid)"/>
+  <ellipse cx="1120" cy="285" rx="420" ry="300" fill="url(#glow)"/>
+  <circle cx="1380" cy="95" r="110" fill="#2acfc1" opacity=".07" filter="url(#soft)"/>
+  <path d="M0 458C270 420 398 514 636 484s400-91 558-48 262 55 406 3" fill="none" stroke="#9a91ff" stroke-opacity=".12" stroke-width="2"/>
+  <g font-family="Inter,Segoe UI,Arial,sans-serif">
+    <g transform="translate(88 78)">
+      <rect width="52" height="52" rx="16" fill="url(#accent)"/>
+      <path d="M15 26h22M26 15v22M18 18l16 16M34 18 18 34" stroke="#101832" stroke-width="2.5" stroke-linecap="round" opacity=".85"/>
+      <circle cx="26" cy="26" r="5" fill="#101832"/>
+    </g>
+    <text x="158" y="111" fill="#c4c9eb" font-size="17" font-weight="700" letter-spacing="3.5">AGENT ORCHESTRATOR</text>
+    <text x="88" y="233" fill="#f4f6ff" font-size="58" font-weight="750" letter-spacing="-2">One workflow.</text>
+    <text x="88" y="302" fill="#f4f6ff" font-size="58" font-weight="750" letter-spacing="-2">A team of agents.</text>
+    <text x="91" y="358" fill="#aeb8db" font-size="21">Plan, delegate, build, test, and review — together.</text>
+    <g transform="translate(90 405)">
+      <rect width="170" height="38" rx="19" fill="#18264a" stroke="#7084c8" stroke-opacity=".35"/>
+      <circle cx="20" cy="19" r="5" fill="#62e8d9"/>
+      <text x="36" y="25" fill="#dce5ff" font-size="13" font-weight="650" letter-spacing="1.1">LOCAL-FIRST</text>
+    </g>
+  </g>
+  <g fill="none" stroke="url(#line)" stroke-width="2">
+    <path d="M1134 280H1255M1134 280 1226 167M1134 280 1226 393M1255 280 1416 180M1255 280 1416 380"/>
+    <path d="M1324 167v213" stroke-dasharray="3 8" opacity=".6"/>
+  </g>
+  <g fill="#6ce5da">
+    <circle cx="1188" cy="280" r="3"/><circle cx="1193" cy="207" r="3"/><circle cx="1193" cy="353" r="3"/><circle cx="1360" cy="210" r="3"/><circle cx="1360" cy="350" r="3"/>
+  </g>
+  <g filter="url(#shadow)" font-family="Inter,Segoe UI,Arial,sans-serif">
+    <g transform="translate(1226 133)">
+      <rect width="174" height="68" rx="17" fill="#111b38" stroke="#78e7dc" stroke-opacity=".38"/>
+      <circle cx="28" cy="34" r="13" fill="#193d4b"/><path d="M22 35h12M28 29v12" stroke="#70f0df" stroke-width="2" stroke-linecap="round"/>
+      <text x="52" y="30" fill="#f0f3ff" font-size="15" font-weight="700">Architect</text><text x="52" y="49" fill="#94a2ca" font-size="11">plans the work</text>
+      <circle cx="155" cy="20" r="4" fill="#64e4d4"/>
+    </g>
+    <g transform="translate(1416 146)">
+      <rect width="148" height="68" rx="17" fill="#111b38" stroke="#9586ff" stroke-opacity=".48"/>
+      <circle cx="27" cy="34" r="13" fill="#29244d"/><path d="m22 37 5-7 5 7" fill="none" stroke="#a89aff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="49" y="30" fill="#f0f3ff" font-size="14" font-weight="700">Builder</text><text x="49" y="49" fill="#94a2ca" font-size="11">ships the change</text>
+    </g>
+    <g transform="translate(1416 346)">
+      <rect width="148" height="68" rx="17" fill="#111b38" stroke="#74a7ff" stroke-opacity=".42"/>
+      <circle cx="27" cy="34" r="13" fill="#1e3152"/><path d="m21 34 4 4 8-9" fill="none" stroke="#85b5ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="49" y="30" fill="#f0f3ff" font-size="14" font-weight="700">Tester</text><text x="49" y="49" fill="#94a2ca" font-size="11">checks behavior</text>
+    </g>
+    <g transform="translate(1226 359)">
+      <rect width="174" height="68" rx="17" fill="#111b38" stroke="#ed9dff" stroke-opacity=".36"/>
+      <circle cx="28" cy="34" r="13" fill="#41274f"/><path d="m22 34 4 4 8-9" fill="none" stroke="#efa4ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="52" y="30" fill="#f0f3ff" font-size="15" font-weight="700">Reviewer</text><text x="52" y="49" fill="#94a2ca" font-size="11">catches regressions</text>
+      <circle cx="155" cy="20" r="4" fill="#d88fff"/>
+    </g>
+  </g>
+  <g filter="url(#shadow)">
+    <circle cx="1080" cy="280" r="84" fill="#7e70ff" opacity=".09"/>
+    <circle cx="1080" cy="280" r="66" fill="#111a3a" stroke="#8d83ff" stroke-opacity=".8" stroke-width="2"/>
+    <circle cx="1080" cy="280" r="54" fill="url(#accent)" opacity=".14"/>
+    <g transform="translate(1052 252)" fill="none" stroke="#b5fff6" stroke-width="2.5" stroke-linecap="round">
+      <path d="M28 4v8M28 44v8M4 28h8M44 28h8M11 11l6 6M39 39l6 6M45 11l-6 6M17 39l-6 6"/>
+      <circle cx="28" cy="28" r="13"/><circle cx="28" cy="28" r="3" fill="#b5fff6"/>
+    </g>
+  </g>
+  <g font-family="Inter,Segoe UI,Arial,sans-serif" fill="#7180aa" font-size="10" letter-spacing="1.5">
+    <text x="1035" y="382">ORCHESTRATE</text>
+  </g>
+</svg>
