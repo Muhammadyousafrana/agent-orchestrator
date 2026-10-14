@@ -1,0 +1,16 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Dependencies and generated runtime data
+node_modules/
+logs/
+
+# Agent and OS runtime artifacts
+.agent_context.md
+.DS_Store
+Thumbs.db
+
+# Graphify cache is reproducible; keep reports and graph exports
+graphify-out/cache/

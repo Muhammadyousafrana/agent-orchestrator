@@ -1,0 +1,3135 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "agent-wrapper-upstash.js",
+      "file_type": "code",
+      "source_file": "agent-wrapper-upstash.js",
+      "source_location": "L1",
+      "id": "agent_wrapper_upstash_js",
+      "community": 5,
+      "norm_label": "agent-wrapper-upstash.js"
+    },
+    {
+      "label": "{ Redis }",
+      "file_type": "code",
+      "source_file": "agent-wrapper-upstash.js",
+      "source_location": "L3",
+      "id": "agent_orchestrator_agent_wrapper_upstash_redis",
+      "community": 5,
+      "norm_label": "{ redis }"
+    },
+    {
+      "label": "{ exec }",
+      "file_type": "code",
+      "source_file": "agent-wrapper-upstash.js",
+      "source_location": "L4",
+      "id": "agent_orchestrator_agent_wrapper_upstash_exec",
+      "community": 5,
+      "norm_label": "{ exec }"
+    },
+    {
+      "label": "yargs",
+      "file_type": "code",
+      "source_file": "agent-wrapper-upstash.js",
+      "source_location": "L5",
+      "id": "agent_orchestrator_agent_wrapper_upstash_yargs",
+      "community": 5,
+      "norm_label": "yargs"
+    },
+    {
+      "label": "{ hideBin }",
+      "file_type": "code",
+      "source_file": "agent-wrapper-upstash.js",
+      "source_location": "L6",
+      "id": "agent_orchestrator_agent_wrapper_upstash_hidebin",
+      "community": 5,
+      "norm_label": "{ hidebin }"
+    },
+    {
+      "label": "parseUpstashFromEnv()",
+      "file_type": "code",
+      "source_file": "agent-wrapper-upstash.js",
+      "source_location": "L13",
+      "id": "agent_orchestrator_agent_wrapper_upstash_parseupstashfromenv",
+      "community": 5,
+      "norm_label": "parseupstashfromenv()"
+    },
+    {
+      "label": "creds",
+      "file_type": "code",
+      "source_file": "agent-wrapper-upstash.js",
+      "source_location": "L28",
+      "id": "agent_orchestrator_agent_wrapper_upstash_creds",
+      "community": 5,
+      "norm_label": "creds"
+    },
+    {
+      "label": "publishProgress()",
+      "file_type": "code",
+      "source_file": "agent-wrapper-upstash.js",
+      "source_location": "L33",
+      "id": "agent_orchestrator_agent_wrapper_upstash_publishprogress",
+      "community": 5,
+      "norm_label": "publishprogress()"
+    },
+    {
+      "label": "parseFlexible()",
+      "file_type": "code",
+      "source_file": "agent-wrapper-upstash.js",
+      "source_location": "L36",
+      "id": "agent_orchestrator_agent_wrapper_upstash_parseflexible",
+      "community": 5,
+      "norm_label": "parseflexible()"
+    },
+    {
+      "label": "processTask()",
+      "file_type": "code",
+      "source_file": "agent-wrapper-upstash.js",
+      "source_location": "L53",
+      "id": "agent_orchestrator_agent_wrapper_upstash_processtask",
+      "community": 5,
+      "norm_label": "processtask()"
+    },
+    {
+      "label": "pollLoop()",
+      "file_type": "code",
+      "source_file": "agent-wrapper-upstash.js",
+      "source_location": "L76",
+      "id": "agent_orchestrator_agent_wrapper_upstash_pollloop",
+      "community": 5,
+      "norm_label": "pollloop()"
+    },
+    {
+      "label": "agent-wrapper.js",
+      "file_type": "code",
+      "source_file": "agent-wrapper.js",
+      "source_location": "L1",
+      "id": "agent_wrapper_js",
+      "community": 7,
+      "norm_label": "agent-wrapper.js"
+    },
+    {
+      "label": "Redis",
+      "file_type": "code",
+      "source_file": "agent-wrapper.js",
+      "source_location": "L3",
+      "id": "agent_orchestrator_agent_wrapper_redis",
+      "community": 7,
+      "norm_label": "redis"
+    },
+    {
+      "label": "{ exec }",
+      "file_type": "code",
+      "source_file": "agent-wrapper.js",
+      "source_location": "L4",
+      "id": "agent_orchestrator_agent_wrapper_exec",
+      "community": 7,
+      "norm_label": "{ exec }"
+    },
+    {
+      "label": "yargs",
+      "file_type": "code",
+      "source_file": "agent-wrapper.js",
+      "source_location": "L5",
+      "id": "agent_orchestrator_agent_wrapper_yargs",
+      "community": 7,
+      "norm_label": "yargs"
+    },
+    {
+      "label": "{ hideBin }",
+      "file_type": "code",
+      "source_file": "agent-wrapper.js",
+      "source_location": "L6",
+      "id": "agent_orchestrator_agent_wrapper_hidebin",
+      "community": 7,
+      "norm_label": "{ hidebin }"
+    },
+    {
+      "label": "publish()",
+      "file_type": "code",
+      "source_file": "agent-wrapper.js",
+      "source_location": "L17",
+      "id": "agent_orchestrator_agent_wrapper_publish",
+      "community": 7,
+      "norm_label": "publish()"
+    },
+    {
+      "label": "start()",
+      "file_type": "code",
+      "source_file": "agent-wrapper.js",
+      "source_location": "L19",
+      "id": "agent_orchestrator_agent_wrapper_start",
+      "community": 7,
+      "norm_label": "start()"
+    },
+    {
+      "label": "app.js",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L1",
+      "id": "app_js",
+      "community": 1,
+      "norm_label": "app.js"
+    },
+    {
+      "label": "express",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L15",
+      "id": "agent_orchestrator_app_express",
+      "community": 1,
+      "norm_label": "express"
+    },
+    {
+      "label": "http",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L16",
+      "id": "agent_orchestrator_app_http",
+      "community": 1,
+      "norm_label": "http"
+    },
+    {
+      "label": "{ WebSocketServer }",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L17",
+      "id": "agent_orchestrator_app_websocketserver",
+      "community": 1,
+      "norm_label": "{ websocketserver }"
+    },
+    {
+      "label": "path",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L18",
+      "id": "agent_orchestrator_app_path",
+      "community": 1,
+      "norm_label": "path"
+    },
+    {
+      "label": "fs",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L19",
+      "id": "agent_orchestrator_app_fs",
+      "community": 1,
+      "norm_label": "fs"
+    },
+    {
+      "label": "{ detectAgents }",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L21",
+      "id": "agent_orchestrator_app_detectagents",
+      "community": 1,
+      "norm_label": "{ detectagents }"
+    },
+    {
+      "label": "{ Orchestrator }",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L22",
+      "id": "agent_orchestrator_app_orchestrator",
+      "community": 1,
+      "norm_label": "{ orchestrator }"
+    },
+    {
+      "label": "app",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L27",
+      "id": "agent_orchestrator_app_app",
+      "community": 1,
+      "norm_label": "app"
+    },
+    {
+      "label": "server",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L28",
+      "id": "agent_orchestrator_app_server",
+      "community": 1,
+      "norm_label": "server"
+    },
+    {
+      "label": "wss",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L29",
+      "id": "agent_orchestrator_app_wss",
+      "community": 1,
+      "norm_label": "wss"
+    },
+    {
+      "label": "clients",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L56",
+      "id": "agent_orchestrator_app_clients",
+      "community": 1,
+      "norm_label": "clients"
+    },
+    {
+      "label": "broadcast()",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L71",
+      "id": "agent_orchestrator_app_broadcast",
+      "community": 1,
+      "norm_label": "broadcast()"
+    },
+    {
+      "label": "customAgents",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L86",
+      "id": "agent_orchestrator_app_customagents",
+      "community": 1,
+      "norm_label": "customagents"
+    },
+    {
+      "label": "workflow",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L129",
+      "id": "agent_orchestrator_app_workflow",
+      "community": 1,
+      "norm_label": "workflow"
+    },
+    {
+      "label": "wireWorkflowEvents()",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L202",
+      "id": "agent_orchestrator_app_wireworkflowevents",
+      "community": 1,
+      "norm_label": "wireworkflowevents()"
+    },
+    {
+      "label": "ecosystem.config.js",
+      "file_type": "code",
+      "source_file": "ecosystem.config.js",
+      "source_location": "L1",
+      "id": "ecosystem_config_js",
+      "community": 10,
+      "norm_label": "ecosystem.config.js"
+    },
+    {
+      "label": "ecosystem.prod.config.js",
+      "file_type": "code",
+      "source_file": "ecosystem.prod.config.js",
+      "source_location": "L1",
+      "id": "ecosystem_prod_config_js",
+      "community": 11,
+      "norm_label": "ecosystem.prod.config.js"
+    },
+    {
+      "label": "server.js",
+      "file_type": "code",
+      "source_file": "server.js",
+      "source_location": "L1",
+      "id": "server_js",
+      "community": 8,
+      "norm_label": "server.js"
+    },
+    {
+      "label": "Redis",
+      "file_type": "code",
+      "source_file": "server.js",
+      "source_location": "L2",
+      "id": "agent_orchestrator_server_redis",
+      "community": 8,
+      "norm_label": "redis"
+    },
+    {
+      "label": "publishTask()",
+      "file_type": "code",
+      "source_file": "server.js",
+      "source_location": "L5",
+      "id": "agent_orchestrator_server_publishtask",
+      "community": 8,
+      "norm_label": "publishtask()"
+    },
+    {
+      "label": "waitForResult()",
+      "file_type": "code",
+      "source_file": "server.js",
+      "source_location": "L11",
+      "id": "agent_orchestrator_server_waitforresult",
+      "community": 8,
+      "norm_label": "waitforresult()"
+    },
+    {
+      "label": "runSampleWorkflow()",
+      "file_type": "code",
+      "source_file": "server.js",
+      "source_location": "L30",
+      "id": "agent_orchestrator_server_runsampleworkflow",
+      "community": 8,
+      "norm_label": "runsampleworkflow()"
+    },
+    {
+      "label": "obj",
+      "file_type": "code",
+      "source_file": "server.js",
+      "source_location": "L75",
+      "id": "agent_orchestrator_server_obj",
+      "community": 8,
+      "norm_label": "obj"
+    },
+    {
+      "label": "server_monitor.js",
+      "file_type": "code",
+      "source_file": "server_monitor.js",
+      "source_location": "L1",
+      "id": "server_monitor_js",
+      "community": 3,
+      "norm_label": "server_monitor.js"
+    },
+    {
+      "label": "{ Redis }",
+      "file_type": "code",
+      "source_file": "server_monitor.js",
+      "source_location": "L2",
+      "id": "agent_orchestrator_server_monitor_redis",
+      "community": 3,
+      "norm_label": "{ redis }"
+    },
+    {
+      "label": "express",
+      "file_type": "code",
+      "source_file": "server_monitor.js",
+      "source_location": "L3",
+      "id": "agent_orchestrator_server_monitor_express",
+      "community": 3,
+      "norm_label": "express"
+    },
+    {
+      "label": "client",
+      "file_type": "code",
+      "source_file": "server_monitor.js",
+      "source_location": "L4",
+      "id": "agent_orchestrator_server_monitor_client",
+      "community": 3,
+      "norm_label": "client"
+    },
+    {
+      "label": "parseUpstashFromEnv()",
+      "file_type": "code",
+      "source_file": "server_monitor.js",
+      "source_location": "L6",
+      "id": "agent_orchestrator_server_monitor_parseupstashfromenv",
+      "community": 3,
+      "norm_label": "parseupstashfromenv()"
+    },
+    {
+      "label": "creds",
+      "file_type": "code",
+      "source_file": "server_monitor.js",
+      "source_location": "L21",
+      "id": "agent_orchestrator_server_monitor_creds",
+      "community": 3,
+      "norm_label": "creds"
+    },
+    {
+      "label": "POLL_INTERVAL",
+      "file_type": "code",
+      "source_file": "server_monitor.js",
+      "source_location": "L25",
+      "id": "agent_orchestrator_server_monitor_poll_interval",
+      "community": 3,
+      "norm_label": "poll_interval"
+    },
+    {
+      "label": "PORT",
+      "file_type": "code",
+      "source_file": "server_monitor.js",
+      "source_location": "L26",
+      "id": "agent_orchestrator_server_monitor_port",
+      "community": 3,
+      "norm_label": "port"
+    },
+    {
+      "label": "register",
+      "file_type": "code",
+      "source_file": "server_monitor.js",
+      "source_location": "L29",
+      "id": "agent_orchestrator_server_monitor_register",
+      "community": 3,
+      "norm_label": "register"
+    },
+    {
+      "label": "dlqGauge",
+      "file_type": "code",
+      "source_file": "server_monitor.js",
+      "source_location": "L32",
+      "id": "agent_orchestrator_server_monitor_dlqgauge",
+      "community": 3,
+      "norm_label": "dlqgauge"
+    },
+    {
+      "label": "queueGauge",
+      "file_type": "code",
+      "source_file": "server_monitor.js",
+      "source_location": "L33",
+      "id": "agent_orchestrator_server_monitor_queuegauge",
+      "community": 3,
+      "norm_label": "queuegauge"
+    },
+    {
+      "label": "heartbeatAgeGauge",
+      "file_type": "code",
+      "source_file": "server_monitor.js",
+      "source_location": "L34",
+      "id": "agent_orchestrator_server_monitor_heartbeatagegauge",
+      "community": 3,
+      "norm_label": "heartbeatagegauge"
+    },
+    {
+      "label": "dlqTotal",
+      "file_type": "code",
+      "source_file": "server_monitor.js",
+      "source_location": "L35",
+      "id": "agent_orchestrator_server_monitor_dlqtotal",
+      "community": 3,
+      "norm_label": "dlqtotal"
+    },
+    {
+      "label": "pollOnce()",
+      "file_type": "code",
+      "source_file": "server_monitor.js",
+      "source_location": "L41",
+      "id": "agent_orchestrator_server_monitor_pollonce",
+      "community": 3,
+      "norm_label": "pollonce()"
+    },
+    {
+      "label": "app",
+      "file_type": "code",
+      "source_file": "server_monitor.js",
+      "source_location": "L77",
+      "id": "agent_orchestrator_server_monitor_app",
+      "community": 3,
+      "norm_label": "app"
+    },
+    {
+      "label": "info",
+      "file_type": "code",
+      "source_file": "server_monitor.js",
+      "source_location": "L89",
+      "id": "agent_orchestrator_server_monitor_info",
+      "community": 3,
+      "norm_label": "info"
+    },
+    {
+      "label": "server_upstash.js",
+      "file_type": "code",
+      "source_file": "server_upstash.js",
+      "source_location": "L1",
+      "id": "server_upstash_js",
+      "community": 6,
+      "norm_label": "server_upstash.js"
+    },
+    {
+      "label": "{ Redis }",
+      "file_type": "code",
+      "source_file": "server_upstash.js",
+      "source_location": "L2",
+      "id": "agent_orchestrator_server_upstash_redis",
+      "community": 6,
+      "norm_label": "{ redis }"
+    },
+    {
+      "label": "parseUpstashFromEnv()",
+      "file_type": "code",
+      "source_file": "server_upstash.js",
+      "source_location": "L4",
+      "id": "agent_orchestrator_server_upstash_parseupstashfromenv",
+      "community": 6,
+      "norm_label": "parseupstashfromenv()"
+    },
+    {
+      "label": "creds",
+      "file_type": "code",
+      "source_file": "server_upstash.js",
+      "source_location": "L23",
+      "id": "agent_orchestrator_server_upstash_creds",
+      "community": 6,
+      "norm_label": "creds"
+    },
+    {
+      "label": "publishTask()",
+      "file_type": "code",
+      "source_file": "server_upstash.js",
+      "source_location": "L26",
+      "id": "agent_orchestrator_server_upstash_publishtask",
+      "community": 6,
+      "norm_label": "publishtask()"
+    },
+    {
+      "label": "pushToDLQ()",
+      "file_type": "code",
+      "source_file": "server_upstash.js",
+      "source_location": "L33",
+      "id": "agent_orchestrator_server_upstash_pushtodlq",
+      "community": 6,
+      "norm_label": "pushtodlq()"
+    },
+    {
+      "label": "waitForResult()",
+      "file_type": "code",
+      "source_file": "server_upstash.js",
+      "source_location": "L40",
+      "id": "agent_orchestrator_server_upstash_waitforresult",
+      "community": 6,
+      "norm_label": "waitforresult()"
+    },
+    {
+      "label": "runSampleWorkflow()",
+      "file_type": "code",
+      "source_file": "server_upstash.js",
+      "source_location": "L53",
+      "id": "agent_orchestrator_server_upstash_runsampleworkflow",
+      "community": 6,
+      "norm_label": "runsampleworkflow()"
+    },
+    {
+      "label": "tailProgressLoop()",
+      "file_type": "code",
+      "source_file": "server_upstash.js",
+      "source_location": "L91",
+      "id": "agent_orchestrator_server_upstash_tailprogressloop",
+      "community": 6,
+      "norm_label": "tailprogressloop()"
+    },
+    {
+      "label": "start-agents-upstash.ps1",
+      "file_type": "code",
+      "source_file": "start-agents-upstash.ps1",
+      "source_location": "L1",
+      "id": "start_agents_upstash_ps1",
+      "community": 12,
+      "norm_label": "start-agents-upstash.ps1"
+    },
+    {
+      "label": "start-agents.ps1",
+      "file_type": "code",
+      "source_file": "start-agents.ps1",
+      "source_location": "L1",
+      "id": "start_agents_ps1",
+      "community": 13,
+      "norm_label": "start-agents.ps1"
+    },
+    {
+      "label": "agent-detector.js",
+      "file_type": "code",
+      "source_file": "lib/agent-detector.js",
+      "source_location": "L1",
+      "id": "lib_agent_detector_js",
+      "community": 1,
+      "norm_label": "agent-detector.js"
+    },
+    {
+      "label": "{ execFile }",
+      "file_type": "code",
+      "source_file": "lib/agent-detector.js",
+      "source_location": "L10",
+      "id": "lib_agent_detector_execfile",
+      "community": 1,
+      "norm_label": "{ execfile }"
+    },
+    {
+      "label": "os",
+      "file_type": "code",
+      "source_file": "lib/agent-detector.js",
+      "source_location": "L11",
+      "id": "lib_agent_detector_os",
+      "community": 1,
+      "norm_label": "os"
+    },
+    {
+      "label": "KNOWN_AGENTS",
+      "file_type": "code",
+      "source_file": "lib/agent-detector.js",
+      "source_location": "L16",
+      "id": "lib_agent_detector_known_agents",
+      "community": 1,
+      "norm_label": "known_agents"
+    },
+    {
+      "label": "checkCommand()",
+      "file_type": "code",
+      "source_file": "lib/agent-detector.js",
+      "source_location": "L71",
+      "id": "lib_agent_detector_checkcommand",
+      "community": 1,
+      "norm_label": "checkcommand()"
+    },
+    {
+      "label": "detectAgents()",
+      "file_type": "code",
+      "source_file": "lib/agent-detector.js",
+      "source_location": "L96",
+      "id": "lib_agent_detector_detectagents",
+      "community": 1,
+      "norm_label": "detectagents()"
+    },
+    {
+      "label": "orchestrator.js",
+      "file_type": "code",
+      "source_file": "lib/orchestrator.js",
+      "source_location": "L1",
+      "id": "lib_orchestrator_js",
+      "community": 2,
+      "norm_label": "orchestrator.js"
+    },
+    {
+      "label": "{ EventEmitter }",
+      "file_type": "code",
+      "source_file": "lib/orchestrator.js",
+      "source_location": "L11",
+      "id": "lib_orchestrator_eventemitter",
+      "community": 2,
+      "norm_label": "{ eventemitter }"
+    },
+    {
+      "label": "crypto",
+      "file_type": "code",
+      "source_file": "lib/orchestrator.js",
+      "source_location": "L12",
+      "id": "lib_orchestrator_crypto",
+      "community": 2,
+      "norm_label": "crypto"
+    },
+    {
+      "label": "fs",
+      "file_type": "code",
+      "source_file": "lib/orchestrator.js",
+      "source_location": "L13",
+      "id": "lib_orchestrator_fs",
+      "community": 2,
+      "norm_label": "fs"
+    },
+    {
+      "label": "path",
+      "file_type": "code",
+      "source_file": "lib/orchestrator.js",
+      "source_location": "L14",
+      "id": "lib_orchestrator_path",
+      "community": 2,
+      "norm_label": "path"
+    },
+    {
+      "label": "{ ProcessRunner }",
+      "file_type": "code",
+      "source_file": "lib/orchestrator.js",
+      "source_location": "L15",
+      "id": "lib_orchestrator_processrunner",
+      "community": 2,
+      "norm_label": "{ processrunner }"
+    },
+    {
+      "label": "ROLES",
+      "file_type": "code",
+      "source_file": "lib/orchestrator.js",
+      "source_location": "L21",
+      "id": "lib_orchestrator_roles",
+      "community": 2,
+      "norm_label": "roles"
+    },
+    {
+      "label": "PHASE_ORDER",
+      "file_type": "code",
+      "source_file": "lib/orchestrator.js",
+      "source_location": "L49",
+      "id": "lib_orchestrator_phase_order",
+      "community": 2,
+      "norm_label": "phase_order"
+    },
+    {
+      "label": "CLI_PATTERNS",
+      "file_type": "code",
+      "source_file": "lib/orchestrator.js",
+      "source_location": "L55",
+      "id": "lib_orchestrator_cli_patterns",
+      "community": 2,
+      "norm_label": "cli_patterns"
+    },
+    {
+      "label": "Workflow",
+      "file_type": "code",
+      "source_file": "lib/orchestrator.js",
+      "source_location": "L68",
+      "id": "lib_orchestrator_workflow",
+      "community": 4,
+      "norm_label": "workflow"
+    },
+    {
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "lib/orchestrator.js",
+      "source_location": "L77",
+      "id": "lib_orchestrator_workflow_constructor",
+      "community": 4,
+      "norm_label": ".constructor()"
+    },
+    {
+      "label": ".start()",
+      "file_type": "code",
+      "source_file": "lib/orchestrator.js",
+      "source_location": "L107",
+      "id": "lib_orchestrator_workflow_start",
+      "community": 4,
+      "norm_label": ".start()"
+    },
+    {
+      "label": ".runSequential()",
+      "file_type": "code",
+      "source_file": "lib/orchestrator.js",
+      "source_location": "L155",
+      "id": "lib_orchestrator_workflow_runsequential",
+      "community": 4,
+      "norm_label": ".runsequential()"
+    },
+    {
+      "label": ".runParallel()",
+      "file_type": "code",
+      "source_file": "lib/orchestrator.js",
+      "source_location": "L172",
+      "id": "lib_orchestrator_workflow_runparallel",
+      "community": 4,
+      "norm_label": ".runparallel()"
+    },
+    {
+      "label": ".runPhase()",
+      "file_type": "code",
+      "source_file": "lib/orchestrator.js",
+      "source_location": "L182",
+      "id": "lib_orchestrator_workflow_runphase",
+      "community": 4,
+      "norm_label": ".runphase()"
+    },
+    {
+      "label": ".runAgent()",
+      "file_type": "code",
+      "source_file": "lib/orchestrator.js",
+      "source_location": "L211",
+      "id": "lib_orchestrator_workflow_runagent",
+      "community": 4,
+      "norm_label": ".runagent()"
+    },
+    {
+      "label": ".writeContextFile()",
+      "file_type": "code",
+      "source_file": "lib/orchestrator.js",
+      "source_location": "L284",
+      "id": "lib_orchestrator_workflow_writecontextfile",
+      "community": 4,
+      "norm_label": ".writecontextfile()"
+    },
+    {
+      "label": ".deleteContextFile()",
+      "file_type": "code",
+      "source_file": "lib/orchestrator.js",
+      "source_location": "L320",
+      "id": "lib_orchestrator_workflow_deletecontextfile",
+      "community": 4,
+      "norm_label": ".deletecontextfile()"
+    },
+    {
+      "label": ".buildPrompt()",
+      "file_type": "code",
+      "source_file": "lib/orchestrator.js",
+      "source_location": "L338",
+      "id": "lib_orchestrator_workflow_buildprompt",
+      "community": 4,
+      "norm_label": ".buildprompt()"
+    },
+    {
+      "label": ".stop()",
+      "file_type": "code",
+      "source_file": "lib/orchestrator.js",
+      "source_location": "L380",
+      "id": "lib_orchestrator_workflow_stop",
+      "community": 4,
+      "norm_label": ".stop()"
+    },
+    {
+      "label": ".getStatus()",
+      "file_type": "code",
+      "source_file": "lib/orchestrator.js",
+      "source_location": "L396",
+      "id": "lib_orchestrator_workflow_getstatus",
+      "community": 4,
+      "norm_label": ".getstatus()"
+    },
+    {
+      "label": "Orchestrator",
+      "file_type": "code",
+      "source_file": "lib/orchestrator.js",
+      "source_location": "L432",
+      "id": "lib_orchestrator_orchestrator",
+      "community": 9,
+      "norm_label": "orchestrator"
+    },
+    {
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "lib/orchestrator.js",
+      "source_location": "L433",
+      "id": "lib_orchestrator_orchestrator_constructor",
+      "community": 9,
+      "norm_label": ".constructor()"
+    },
+    {
+      "label": ".createWorkflow()",
+      "file_type": "code",
+      "source_file": "lib/orchestrator.js",
+      "source_location": "L445",
+      "id": "lib_orchestrator_orchestrator_createworkflow",
+      "community": 9,
+      "norm_label": ".createworkflow()"
+    },
+    {
+      "label": ".getWorkflow()",
+      "file_type": "code",
+      "source_file": "lib/orchestrator.js",
+      "source_location": "L458",
+      "id": "lib_orchestrator_orchestrator_getworkflow",
+      "community": 9,
+      "norm_label": ".getworkflow()"
+    },
+    {
+      "label": ".getHistory()",
+      "file_type": "code",
+      "source_file": "lib/orchestrator.js",
+      "source_location": "L467",
+      "id": "lib_orchestrator_orchestrator_gethistory",
+      "community": 9,
+      "norm_label": ".gethistory()"
+    },
+    {
+      "label": "process-runner.js",
+      "file_type": "code",
+      "source_file": "lib/process-runner.js",
+      "source_location": "L1",
+      "id": "lib_process_runner_js",
+      "community": 2,
+      "norm_label": "process-runner.js"
+    },
+    {
+      "label": "{ spawn, exec }",
+      "file_type": "code",
+      "source_file": "lib/process-runner.js",
+      "source_location": "L11",
+      "id": "lib_process_runner_spawn_exec",
+      "community": 2,
+      "norm_label": "{ spawn, exec }"
+    },
+    {
+      "label": "os",
+      "file_type": "code",
+      "source_file": "lib/process-runner.js",
+      "source_location": "L12",
+      "id": "lib_process_runner_os",
+      "community": 2,
+      "norm_label": "os"
+    },
+    {
+      "label": "ProcessRunner",
+      "file_type": "code",
+      "source_file": "lib/process-runner.js",
+      "source_location": "L16",
+      "id": "lib_process_runner_processrunner",
+      "community": 2,
+      "norm_label": "processrunner"
+    },
+    {
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "lib/process-runner.js",
+      "source_location": "L24",
+      "id": "lib_process_runner_processrunner_constructor",
+      "community": 2,
+      "norm_label": ".constructor()"
+    },
+    {
+      "label": ".run()",
+      "file_type": "code",
+      "source_file": "lib/process-runner.js",
+      "source_location": "L46",
+      "id": "lib_process_runner_processrunner_run",
+      "community": 2,
+      "norm_label": ".run()"
+    },
+    {
+      "label": ".kill()",
+      "file_type": "code",
+      "source_file": "lib/process-runner.js",
+      "source_location": "L138",
+      "id": "lib_process_runner_processrunner_kill",
+      "community": 2,
+      "norm_label": ".kill()"
+    },
+    {
+      "label": ".sendInput()",
+      "file_type": "code",
+      "source_file": "lib/process-runner.js",
+      "source_location": "L159",
+      "id": "lib_process_runner_processrunner_sendinput",
+      "community": 2,
+      "norm_label": ".sendinput()"
+    },
+    {
+      "label": "app.js",
+      "file_type": "code",
+      "source_file": "public/js/app.js",
+      "source_location": "L1",
+      "id": "public_js_app_js",
+      "community": 0,
+      "norm_label": "app.js"
+    },
+    {
+      "label": "ROLES",
+      "file_type": "code",
+      "source_file": "public/js/app.js",
+      "source_location": "L15",
+      "id": "js_app_roles",
+      "community": 0,
+      "norm_label": "roles"
+    },
+    {
+      "label": "MODE_HINTS",
+      "file_type": "code",
+      "source_file": "public/js/app.js",
+      "source_location": "L23",
+      "id": "js_app_mode_hints",
+      "community": 0,
+      "norm_label": "mode_hints"
+    },
+    {
+      "label": "TOAST_ICONS",
+      "file_type": "code",
+      "source_file": "public/js/app.js",
+      "source_location": "L28",
+      "id": "js_app_toast_icons",
+      "community": 0,
+      "norm_label": "toast_icons"
+    },
+    {
+      "label": "state",
+      "file_type": "code",
+      "source_file": "public/js/app.js",
+      "source_location": "L39",
+      "id": "js_app_state",
+      "community": 0,
+      "norm_label": "state"
+    },
+    {
+      "label": "$()",
+      "file_type": "code",
+      "source_file": "public/js/app.js",
+      "source_location": "L57",
+      "id": "js_app",
+      "community": 0,
+      "norm_label": "$()"
+    },
+    {
+      "label": "dom",
+      "file_type": "code",
+      "source_file": "public/js/app.js",
+      "source_location": "L60",
+      "id": "js_app_dom",
+      "community": 0,
+      "norm_label": "dom"
+    },
+    {
+      "label": "connectWebSocket()",
+      "file_type": "code",
+      "source_file": "public/js/app.js",
+      "source_location": "L98",
+      "id": "js_app_connectwebsocket",
+      "community": 0,
+      "norm_label": "connectwebsocket()"
+    },
+    {
+      "label": "handleWsMessage()",
+      "file_type": "code",
+      "source_file": "public/js/app.js",
+      "source_location": "L130",
+      "id": "js_app_handlewsmessage",
+      "community": 0,
+      "norm_label": "handlewsmessage()"
+    },
+    {
+      "label": "detectAgents()",
+      "file_type": "code",
+      "source_file": "public/js/app.js",
+      "source_location": "L191",
+      "id": "js_app_detectagents",
+      "community": 0,
+      "norm_label": "detectagents()"
+    },
+    {
+      "label": "renderAgentCards()",
+      "file_type": "code",
+      "source_file": "public/js/app.js",
+      "source_location": "L219",
+      "id": "js_app_renderagentcards",
+      "community": 0,
+      "norm_label": "renderagentcards()"
+    },
+    {
+      "label": "toggleAgent()",
+      "file_type": "code",
+      "source_file": "public/js/app.js",
+      "source_location": "L317",
+      "id": "js_app_toggleagent",
+      "community": 0,
+      "norm_label": "toggleagent()"
+    },
+    {
+      "label": "renderRoleAssignments()",
+      "file_type": "code",
+      "source_file": "public/js/app.js",
+      "source_location": "L332",
+      "id": "js_app_renderroleassignments",
+      "community": 0,
+      "norm_label": "renderroleassignments()"
+    },
+    {
+      "label": "goToStep()",
+      "file_type": "code",
+      "source_file": "public/js/app.js",
+      "source_location": "L420",
+      "id": "js_app_gotostep",
+      "community": 0,
+      "norm_label": "gotostep()"
+    },
+    {
+      "label": "launchWorkflow()",
+      "file_type": "code",
+      "source_file": "public/js/app.js",
+      "source_location": "L449",
+      "id": "js_app_launchworkflow",
+      "community": 0,
+      "norm_label": "launchworkflow()"
+    },
+    {
+      "label": "renderTimeline()",
+      "file_type": "code",
+      "source_file": "public/js/app.js",
+      "source_location": "L575",
+      "id": "js_app_rendertimeline",
+      "community": 0,
+      "norm_label": "rendertimeline()"
+    },
+    {
+      "label": "updatePhaseState()",
+      "file_type": "code",
+      "source_file": "public/js/app.js",
+      "source_location": "L607",
+      "id": "js_app_updatephasestate",
+      "community": 0,
+      "norm_label": "updatephasestate()"
+    },
+    {
+      "label": "renderAgentTerminals()",
+      "file_type": "code",
+      "source_file": "public/js/app.js",
+      "source_location": "L627",
+      "id": "js_app_renderagentterminals",
+      "community": 0,
+      "norm_label": "renderagentterminals()"
+    },
+    {
+      "label": "updateAgentStatus()",
+      "file_type": "code",
+      "source_file": "public/js/app.js",
+      "source_location": "L691",
+      "id": "js_app_updateagentstatus",
+      "community": 0,
+      "norm_label": "updateagentstatus()"
+    },
+    {
+      "label": "appendOutput()",
+      "file_type": "code",
+      "source_file": "public/js/app.js",
+      "source_location": "L705",
+      "id": "js_app_appendoutput",
+      "community": 0,
+      "norm_label": "appendoutput()"
+    },
+    {
+      "label": "startTimer()",
+      "file_type": "code",
+      "source_file": "public/js/app.js",
+      "source_location": "L740",
+      "id": "js_app_starttimer",
+      "community": 0,
+      "norm_label": "starttimer()"
+    },
+    {
+      "label": "stopTimer()",
+      "file_type": "code",
+      "source_file": "public/js/app.js",
+      "source_location": "L746",
+      "id": "js_app_stoptimer",
+      "community": 0,
+      "norm_label": "stoptimer()"
+    },
+    {
+      "label": "updateTimer()",
+      "file_type": "code",
+      "source_file": "public/js/app.js",
+      "source_location": "L753",
+      "id": "js_app_updatetimer",
+      "community": 0,
+      "norm_label": "updatetimer()"
+    },
+    {
+      "label": "showToast()",
+      "file_type": "code",
+      "source_file": "public/js/app.js",
+      "source_location": "L765",
+      "id": "js_app_showtoast",
+      "community": 0,
+      "norm_label": "showtoast()"
+    },
+    {
+      "label": "initTheme()",
+      "file_type": "code",
+      "source_file": "public/js/app.js",
+      "source_location": "L791",
+      "id": "js_app_inittheme",
+      "community": 0,
+      "norm_label": "inittheme()"
+    },
+    {
+      "label": "toggleTheme()",
+      "file_type": "code",
+      "source_file": "public/js/app.js",
+      "source_location": "L797",
+      "id": "js_app_toggletheme",
+      "community": 0,
+      "norm_label": "toggletheme()"
+    },
+    {
+      "label": "loadHistory()",
+      "file_type": "code",
+      "source_file": "public/js/app.js",
+      "source_location": "L809",
+      "id": "js_app_loadhistory",
+      "community": 0,
+      "norm_label": "loadhistory()"
+    },
+    {
+      "label": "renderHistory()",
+      "file_type": "code",
+      "source_file": "public/js/app.js",
+      "source_location": "L818",
+      "id": "js_app_renderhistory",
+      "community": 0,
+      "norm_label": "renderhistory()"
+    },
+    {
+      "label": "stopWorkflow()",
+      "file_type": "code",
+      "source_file": "public/js/app.js",
+      "source_location": "L856",
+      "id": "js_app_stopworkflow",
+      "community": 0,
+      "norm_label": "stopworkflow()"
+    },
+    {
+      "label": "resetToSetup()",
+      "file_type": "code",
+      "source_file": "public/js/app.js",
+      "source_location": "L867",
+      "id": "js_app_resettosetup",
+      "community": 0,
+      "norm_label": "resettosetup()"
+    },
+    {
+      "label": "escapeHtml()",
+      "file_type": "code",
+      "source_file": "public/js/app.js",
+      "source_location": "L890",
+      "id": "js_app_escapehtml",
+      "community": 0,
+      "norm_label": "escapehtml()"
+    },
+    {
+      "label": "removeCustomAgent()",
+      "file_type": "code",
+      "source_file": "public/js/app.js",
+      "source_location": "L896",
+      "id": "js_app_removecustomagent",
+      "community": 0,
+      "norm_label": "removecustomagent()"
+    },
+    {
+      "label": "wireEvents()",
+      "file_type": "code",
+      "source_file": "public/js/app.js",
+      "source_location": "L912",
+      "id": "js_app_wireevents",
+      "community": 0,
+      "norm_label": "wireevents()"
+    },
+    {
+      "label": "saved",
+      "file_type": "code",
+      "source_file": "public/js/app.js",
+      "source_location": "L1015",
+      "id": "js_app_saved",
+      "community": 0,
+      "norm_label": "saved"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "id": "readme_md",
+      "community": 14,
+      "norm_label": "readme.md"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "agent-wrapper-upstash.js",
+      "source_location": "L29",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agent_wrapper_upstash_js",
+      "target": "agent_orchestrator_agent_wrapper_upstash_redis"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "agent-wrapper-upstash.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agent_wrapper_upstash_js",
+      "target": "agent_orchestrator_agent_wrapper_upstash_exec"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "agent-wrapper-upstash.js",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agent_wrapper_upstash_js",
+      "target": "agent_orchestrator_agent_wrapper_upstash_yargs"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "agent-wrapper-upstash.js",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agent_wrapper_upstash_js",
+      "target": "agent_orchestrator_agent_wrapper_upstash_hidebin"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "agent-wrapper-upstash.js",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agent_wrapper_upstash_js",
+      "target": "agent_orchestrator_agent_wrapper_upstash_parseupstashfromenv"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "agent-wrapper-upstash.js",
+      "source_location": "L28",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agent_wrapper_upstash_js",
+      "target": "agent_orchestrator_agent_wrapper_upstash_creds"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "agent-wrapper-upstash.js",
+      "source_location": "L33",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agent_wrapper_upstash_js",
+      "target": "agent_orchestrator_agent_wrapper_upstash_publishprogress"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "agent-wrapper-upstash.js",
+      "source_location": "L36",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agent_wrapper_upstash_js",
+      "target": "agent_orchestrator_agent_wrapper_upstash_parseflexible"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "agent-wrapper-upstash.js",
+      "source_location": "L53",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agent_wrapper_upstash_js",
+      "target": "agent_orchestrator_agent_wrapper_upstash_processtask"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "agent-wrapper-upstash.js",
+      "source_location": "L76",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agent_wrapper_upstash_js",
+      "target": "agent_orchestrator_agent_wrapper_upstash_pollloop"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "agent-wrapper-upstash.js",
+      "source_location": "L54",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agent_orchestrator_agent_wrapper_upstash_processtask",
+      "target": "agent_orchestrator_agent_wrapper_upstash_publishprogress"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "agent-wrapper-upstash.js",
+      "source_location": "L125",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agent_orchestrator_agent_wrapper_upstash_pollloop",
+      "target": "agent_orchestrator_agent_wrapper_upstash_parseflexible"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "agent-wrapper.js",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agent_wrapper_js",
+      "target": "agent_orchestrator_agent_wrapper_redis"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "agent-wrapper.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agent_wrapper_js",
+      "target": "agent_orchestrator_agent_wrapper_exec"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "agent-wrapper.js",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agent_wrapper_js",
+      "target": "agent_orchestrator_agent_wrapper_yargs"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "agent-wrapper.js",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agent_wrapper_js",
+      "target": "agent_orchestrator_agent_wrapper_hidebin"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "agent-wrapper.js",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agent_wrapper_js",
+      "target": "agent_orchestrator_agent_wrapper_publish"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "agent-wrapper.js",
+      "source_location": "L19",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agent_wrapper_js",
+      "target": "agent_orchestrator_agent_wrapper_start"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "agent-wrapper.js",
+      "source_location": "L24",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agent_orchestrator_agent_wrapper_start",
+      "target": "agent_orchestrator_agent_wrapper_publish"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "agent_orchestrator_app_express"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "agent_orchestrator_app_http"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "agent_orchestrator_app_websocketserver"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L18",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "agent_orchestrator_app_path"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L19",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "agent_orchestrator_app_fs"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L21",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "lib_agent_detector_js"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L21",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "lib_agent_detector_detectagents"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L21",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "agent_orchestrator_app_detectagents"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L22",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "lib_orchestrator_js"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L22",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "lib_orchestrator_orchestrator"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L31",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "agent_orchestrator_app_orchestrator"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L27",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "agent_orchestrator_app_app"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L28",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "agent_orchestrator_app_server"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L29",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "agent_orchestrator_app_wss"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L56",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "agent_orchestrator_app_clients"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L71",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "agent_orchestrator_app_broadcast"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L86",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "agent_orchestrator_app_customagents"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L173",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "agent_orchestrator_app_workflow"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L201",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "agent_orchestrator_app_wireworkflowevents"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "server_js",
+      "target": "agent_orchestrator_server_redis"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server.js",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "server_js",
+      "target": "agent_orchestrator_server_publishtask"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server.js",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "server_js",
+      "target": "agent_orchestrator_server_waitforresult"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server.js",
+      "source_location": "L30",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "server_js",
+      "target": "agent_orchestrator_server_runsampleworkflow"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server.js",
+      "source_location": "L75",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "server_js",
+      "target": "agent_orchestrator_server_obj"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "server.js",
+      "source_location": "L41",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agent_orchestrator_server_runsampleworkflow",
+      "target": "agent_orchestrator_server_publishtask"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "server.js",
+      "source_location": "L42",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agent_orchestrator_server_runsampleworkflow",
+      "target": "agent_orchestrator_server_waitforresult"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server_monitor.js",
+      "source_location": "L22",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "server_monitor_js",
+      "target": "agent_orchestrator_server_monitor_redis"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server_monitor.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "server_monitor_js",
+      "target": "agent_orchestrator_server_monitor_express"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server_monitor.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "server_monitor_js",
+      "target": "agent_orchestrator_server_monitor_client"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server_monitor.js",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "server_monitor_js",
+      "target": "agent_orchestrator_server_monitor_parseupstashfromenv"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server_monitor.js",
+      "source_location": "L21",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "server_monitor_js",
+      "target": "agent_orchestrator_server_monitor_creds"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server_monitor.js",
+      "source_location": "L25",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "server_monitor_js",
+      "target": "agent_orchestrator_server_monitor_poll_interval"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server_monitor.js",
+      "source_location": "L26",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "server_monitor_js",
+      "target": "agent_orchestrator_server_monitor_port"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server_monitor.js",
+      "source_location": "L29",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "server_monitor_js",
+      "target": "agent_orchestrator_server_monitor_register"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server_monitor.js",
+      "source_location": "L32",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "server_monitor_js",
+      "target": "agent_orchestrator_server_monitor_dlqgauge"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server_monitor.js",
+      "source_location": "L33",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "server_monitor_js",
+      "target": "agent_orchestrator_server_monitor_queuegauge"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server_monitor.js",
+      "source_location": "L34",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "server_monitor_js",
+      "target": "agent_orchestrator_server_monitor_heartbeatagegauge"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server_monitor.js",
+      "source_location": "L35",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "server_monitor_js",
+      "target": "agent_orchestrator_server_monitor_dlqtotal"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server_monitor.js",
+      "source_location": "L41",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "server_monitor_js",
+      "target": "agent_orchestrator_server_monitor_pollonce"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server_monitor.js",
+      "source_location": "L77",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "server_monitor_js",
+      "target": "agent_orchestrator_server_monitor_app"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server_monitor.js",
+      "source_location": "L89",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "server_monitor_js",
+      "target": "agent_orchestrator_server_monitor_info"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server_upstash.js",
+      "source_location": "L24",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "server_upstash_js",
+      "target": "agent_orchestrator_server_upstash_redis"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server_upstash.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "server_upstash_js",
+      "target": "agent_orchestrator_server_upstash_parseupstashfromenv"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server_upstash.js",
+      "source_location": "L23",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "server_upstash_js",
+      "target": "agent_orchestrator_server_upstash_creds"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server_upstash.js",
+      "source_location": "L26",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "server_upstash_js",
+      "target": "agent_orchestrator_server_upstash_publishtask"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server_upstash.js",
+      "source_location": "L33",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "server_upstash_js",
+      "target": "agent_orchestrator_server_upstash_pushtodlq"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server_upstash.js",
+      "source_location": "L40",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "server_upstash_js",
+      "target": "agent_orchestrator_server_upstash_waitforresult"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server_upstash.js",
+      "source_location": "L53",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "server_upstash_js",
+      "target": "agent_orchestrator_server_upstash_runsampleworkflow"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server_upstash.js",
+      "source_location": "L91",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "server_upstash_js",
+      "target": "agent_orchestrator_server_upstash_tailprogressloop"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "server_upstash.js",
+      "source_location": "L63",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agent_orchestrator_server_upstash_runsampleworkflow",
+      "target": "agent_orchestrator_server_upstash_publishtask"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "server_upstash.js",
+      "source_location": "L64",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agent_orchestrator_server_upstash_runsampleworkflow",
+      "target": "agent_orchestrator_server_upstash_waitforresult"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/agent-detector.js",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_agent_detector_js",
+      "target": "lib_agent_detector_execfile"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/agent-detector.js",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_agent_detector_js",
+      "target": "lib_agent_detector_os"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/agent-detector.js",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_agent_detector_js",
+      "target": "lib_agent_detector_known_agents"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/agent-detector.js",
+      "source_location": "L71",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_agent_detector_js",
+      "target": "lib_agent_detector_checkcommand"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/agent-detector.js",
+      "source_location": "L96",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_agent_detector_js",
+      "target": "lib_agent_detector_detectagents"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/orchestrator.js",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_orchestrator_js",
+      "target": "lib_orchestrator_eventemitter"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/orchestrator.js",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_orchestrator_js",
+      "target": "lib_orchestrator_crypto"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/orchestrator.js",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_orchestrator_js",
+      "target": "lib_orchestrator_fs"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/orchestrator.js",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_orchestrator_js",
+      "target": "lib_orchestrator_path"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/orchestrator.js",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_orchestrator_js",
+      "target": "lib_process_runner_js"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/orchestrator.js",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_orchestrator_js",
+      "target": "lib_process_runner_processrunner"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/orchestrator.js",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_orchestrator_js",
+      "target": "lib_orchestrator_processrunner"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/orchestrator.js",
+      "source_location": "L21",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_orchestrator_js",
+      "target": "lib_orchestrator_roles"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/orchestrator.js",
+      "source_location": "L49",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_orchestrator_js",
+      "target": "lib_orchestrator_phase_order"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/orchestrator.js",
+      "source_location": "L55",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_orchestrator_js",
+      "target": "lib_orchestrator_cli_patterns"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/orchestrator.js",
+      "source_location": "L68",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_orchestrator_js",
+      "target": "lib_orchestrator_workflow"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/orchestrator.js",
+      "source_location": "L406",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_orchestrator_js",
+      "target": "lib_orchestrator_orchestrator"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/orchestrator.js",
+      "source_location": "L77",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_orchestrator_workflow",
+      "target": "lib_orchestrator_workflow_constructor"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/orchestrator.js",
+      "source_location": "L107",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_orchestrator_workflow",
+      "target": "lib_orchestrator_workflow_start"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/orchestrator.js",
+      "source_location": "L146",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_orchestrator_workflow",
+      "target": "lib_orchestrator_workflow_runsequential"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/orchestrator.js",
+      "source_location": "L155",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_orchestrator_workflow",
+      "target": "lib_orchestrator_workflow_runparallel"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/orchestrator.js",
+      "source_location": "L165",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_orchestrator_workflow",
+      "target": "lib_orchestrator_workflow_runphase"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/orchestrator.js",
+      "source_location": "L194",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_orchestrator_workflow",
+      "target": "lib_orchestrator_workflow_runagent"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/orchestrator.js",
+      "source_location": "L267",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_orchestrator_workflow",
+      "target": "lib_orchestrator_workflow_writecontextfile"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/orchestrator.js",
+      "source_location": "L303",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_orchestrator_workflow",
+      "target": "lib_orchestrator_workflow_deletecontextfile"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/orchestrator.js",
+      "source_location": "L321",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_orchestrator_workflow",
+      "target": "lib_orchestrator_workflow_buildprompt"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/orchestrator.js",
+      "source_location": "L363",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_orchestrator_workflow",
+      "target": "lib_orchestrator_workflow_stop"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/orchestrator.js",
+      "source_location": "L379",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_orchestrator_workflow",
+      "target": "lib_orchestrator_workflow_getstatus"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/orchestrator.js",
+      "source_location": "L118",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_orchestrator_workflow_start",
+      "target": "lib_orchestrator_workflow_runparallel"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/orchestrator.js",
+      "source_location": "L120",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_orchestrator_workflow_start",
+      "target": "lib_orchestrator_workflow_runsequential"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/orchestrator.js",
+      "source_location": "L141",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_orchestrator_workflow_start",
+      "target": "lib_orchestrator_workflow_deletecontextfile"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/orchestrator.js",
+      "source_location": "L150",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_orchestrator_workflow_runsequential",
+      "target": "lib_orchestrator_workflow_runphase"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/orchestrator.js",
+      "source_location": "L210",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_orchestrator_workflow_runagent",
+      "target": "lib_orchestrator_workflow_writecontextfile"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/orchestrator.js",
+      "source_location": "L212",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_orchestrator_workflow_runagent",
+      "target": "lib_orchestrator_workflow_buildprompt"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/orchestrator.js",
+      "source_location": "L371",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_orchestrator_workflow_stop",
+      "target": "lib_orchestrator_workflow_deletecontextfile"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/orchestrator.js",
+      "source_location": "L407",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_orchestrator_orchestrator",
+      "target": "lib_orchestrator_orchestrator_constructor"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/orchestrator.js",
+      "source_location": "L419",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_orchestrator_orchestrator",
+      "target": "lib_orchestrator_orchestrator_createworkflow"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/orchestrator.js",
+      "source_location": "L432",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_orchestrator_orchestrator",
+      "target": "lib_orchestrator_orchestrator_getworkflow"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/orchestrator.js",
+      "source_location": "L441",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_orchestrator_orchestrator",
+      "target": "lib_orchestrator_orchestrator_gethistory"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/process-runner.js",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_process_runner_js",
+      "target": "lib_process_runner_spawn_exec"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/process-runner.js",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_process_runner_js",
+      "target": "lib_process_runner_os"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/process-runner.js",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_process_runner_js",
+      "target": "lib_process_runner_processrunner"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/process-runner.js",
+      "source_location": "L24",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_process_runner_processrunner",
+      "target": "lib_process_runner_processrunner_constructor"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/process-runner.js",
+      "source_location": "L46",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_process_runner_processrunner",
+      "target": "lib_process_runner_processrunner_run"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/process-runner.js",
+      "source_location": "L133",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_process_runner_processrunner",
+      "target": "lib_process_runner_processrunner_kill"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/process-runner.js",
+      "source_location": "L154",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_process_runner_processrunner",
+      "target": "lib_process_runner_processrunner_sendinput"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "public/js/app.js",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "public_js_app_js",
+      "target": "js_app_roles"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "public/js/app.js",
+      "source_location": "L23",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "public_js_app_js",
+      "target": "js_app_mode_hints"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "public/js/app.js",
+      "source_location": "L28",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "public_js_app_js",
+      "target": "js_app_toast_icons"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "public/js/app.js",
+      "source_location": "L39",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "public_js_app_js",
+      "target": "js_app_state"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "public/js/app.js",
+      "source_location": "L58",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "public_js_app_js",
+      "target": "js_app"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "public/js/app.js",
+      "source_location": "L60",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "public_js_app_js",
+      "target": "js_app_dom"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "public/js/app.js",
+      "source_location": "L98",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "public_js_app_js",
+      "target": "js_app_connectwebsocket"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "public/js/app.js",
+      "source_location": "L130",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "public_js_app_js",
+      "target": "js_app_handlewsmessage"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "public/js/app.js",
+      "source_location": "L191",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "public_js_app_js",
+      "target": "js_app_detectagents"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "public/js/app.js",
+      "source_location": "L219",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "public_js_app_js",
+      "target": "js_app_renderagentcards"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "public/js/app.js",
+      "source_location": "L317",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "public_js_app_js",
+      "target": "js_app_toggleagent"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "public/js/app.js",
+      "source_location": "L332",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "public_js_app_js",
+      "target": "js_app_renderroleassignments"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "public/js/app.js",
+      "source_location": "L389",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "public_js_app_js",
+      "target": "js_app_gotostep"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "public/js/app.js",
+      "source_location": "L418",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "public_js_app_js",
+      "target": "js_app_launchworkflow"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "public/js/app.js",
+      "source_location": "L510",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "public_js_app_js",
+      "target": "js_app_rendertimeline"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "public/js/app.js",
+      "source_location": "L542",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "public_js_app_js",
+      "target": "js_app_updatephasestate"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "public/js/app.js",
+      "source_location": "L562",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "public_js_app_js",
+      "target": "js_app_renderagentterminals"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "public/js/app.js",
+      "source_location": "L626",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "public_js_app_js",
+      "target": "js_app_updateagentstatus"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "public/js/app.js",
+      "source_location": "L640",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "public_js_app_js",
+      "target": "js_app_appendoutput"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "public/js/app.js",
+      "source_location": "L675",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "public_js_app_js",
+      "target": "js_app_starttimer"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "public/js/app.js",
+      "source_location": "L681",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "public_js_app_js",
+      "target": "js_app_stoptimer"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "public/js/app.js",
+      "source_location": "L688",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "public_js_app_js",
+      "target": "js_app_updatetimer"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "public/js/app.js",
+      "source_location": "L700",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "public_js_app_js",
+      "target": "js_app_showtoast"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "public/js/app.js",
+      "source_location": "L726",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "public_js_app_js",
+      "target": "js_app_inittheme"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "public/js/app.js",
+      "source_location": "L732",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "public_js_app_js",
+      "target": "js_app_toggletheme"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "public/js/app.js",
+      "source_location": "L744",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "public_js_app_js",
+      "target": "js_app_loadhistory"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "public/js/app.js",
+      "source_location": "L753",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "public_js_app_js",
+      "target": "js_app_renderhistory"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "public/js/app.js",
+      "source_location": "L791",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "public_js_app_js",
+      "target": "js_app_stopworkflow"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "public/js/app.js",
+      "source_location": "L802",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "public_js_app_js",
+      "target": "js_app_resettosetup"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "public/js/app.js",
+      "source_location": "L825",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "public_js_app_js",
+      "target": "js_app_escapehtml"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "public/js/app.js",
+      "source_location": "L831",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "public_js_app_js",
+      "target": "js_app_removecustomagent"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "public/js/app.js",
+      "source_location": "L847",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "public_js_app_js",
+      "target": "js_app_wireevents"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "public/js/app.js",
+      "source_location": "L950",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "public_js_app_js",
+      "target": "js_app_saved"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "public/js/app.js",
+      "source_location": "L401",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_gotostep",
+      "target": "js_app"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "public/js/app.js",
+      "source_location": "L490",
+      "weight": 1.0,
+      "source": "js_app_launchworkflow",
+      "target": "js_app",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "public/js/app.js",
+      "source_location": "L543",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_updatephasestate",
+      "target": "js_app"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "public/js/app.js",
+      "source_location": "L631",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_updateagentstatus",
+      "target": "js_app"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "public/js/app.js",
+      "source_location": "L644",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_appendoutput",
+      "target": "js_app"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "public/js/app.js",
+      "source_location": "L135",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_handlewsmessage",
+      "target": "js_app_showtoast"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "public/js/app.js",
+      "source_location": "L139",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_handlewsmessage",
+      "target": "js_app_updatephasestate"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "public/js/app.js",
+      "source_location": "L147",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_handlewsmessage",
+      "target": "js_app_updateagentstatus"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "public/js/app.js",
+      "source_location": "L151",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_handlewsmessage",
+      "target": "js_app_appendoutput"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "public/js/app.js",
+      "source_location": "L160",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_handlewsmessage",
+      "target": "js_app_stoptimer"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "public/js/app.js",
+      "source_location": "L164",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_handlewsmessage",
+      "target": "js_app_loadhistory"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "public/js/app.js",
+      "source_location": "L208",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_detectagents",
+      "target": "js_app_renderagentcards"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "public/js/app.js",
+      "source_location": "L215",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_detectagents",
+      "target": "js_app_showtoast"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "public/js/app.js",
+      "source_location": "L840",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_removecustomagent",
+      "target": "js_app_detectagents"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "public/js/app.js",
+      "source_location": "L817",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_resettosetup",
+      "target": "js_app_renderagentcards"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "public/js/app.js",
+      "source_location": "L411",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_gotostep",
+      "target": "js_app_renderroleassignments"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "public/js/app.js",
+      "source_location": "L810",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_resettosetup",
+      "target": "js_app_gotostep"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "public/js/app.js",
+      "source_location": "L423",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_launchworkflow",
+      "target": "js_app_showtoast"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "public/js/app.js",
+      "source_location": "L490",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_launchworkflow",
+      "target": "js_app_rendertimeline"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "public/js/app.js",
+      "source_location": "L493",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_launchworkflow",
+      "target": "js_app_renderagentterminals"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "public/js/app.js",
+      "source_location": "L496",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_launchworkflow",
+      "target": "js_app_starttimer"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "public/js/app.js",
+      "source_location": "L562",
+      "weight": 1.0,
+      "source": "js_app_launchworkflow",
+      "target": "js_app_stoptimer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "public/js/app.js",
+      "source_location": "L648",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_appendoutput",
+      "target": "js_app_escapehtml"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "public/js/app.js",
+      "source_location": "L678",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_starttimer",
+      "target": "js_app_updatetimer"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "public/js/app.js",
+      "source_location": "L804",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_resettosetup",
+      "target": "js_app_stoptimer"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "public/js/app.js",
+      "source_location": "L798",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_stopworkflow",
+      "target": "js_app_showtoast"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "public/js/app.js",
+      "source_location": "L839",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_removecustomagent",
+      "target": "js_app_showtoast"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "public/js/app.js",
+      "source_location": "L749",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_loadhistory",
+      "target": "js_app_renderhistory"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "public/js/app.js",
+      "source_location": "L818",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "js_app_resettosetup",
+      "target": "js_app_loadhistory"
+    }
+  ],
+  "hyperedges": []
+}

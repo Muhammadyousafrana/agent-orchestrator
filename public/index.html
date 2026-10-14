@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Agent Orchestrator — AI Agent Workflow Manager</title>
+  <meta name="description" content="Combine multiple AI coding agents (Gemini, Copilot, Codex, OpenCode) to collaboratively build, test, review, and ship software together." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✦</text></svg>" />
+  <link rel="stylesheet" href="css/index.css" />
+</head>
+<body data-theme="dark">
+
+  <!-- Toast Notifications -->
+  <div id="toast-container"></div>
+
+  <!-- Agent Permission Prompt -->
+  <div id="permission-modal" class="permission-modal hidden" role="dialog" aria-modal="true" aria-labelledby="permission-title">
+    <div class="permission-dialog">
+      <div class="permission-header">
+        <div>
+          <h2 id="permission-title">Agent Needs Permission</h2>
+          <p id="permission-agent" class="permission-meta"></p>
+        </div>
+      </div>
+      <pre id="permission-prompt" class="permission-prompt"></pre>
+      <div class="permission-custom">
+        <label for="permission-custom-input">Custom response</label>
+        <input type="text" id="permission-custom-input" placeholder="Type a response to send to stdin" autocomplete="off" />
+      </div>
+      <div class="permission-actions">
+        <button type="button" id="btn-permission-deny" class="btn-secondary">Deny</button>
+        <button type="button" id="btn-permission-send-custom" class="btn-secondary">Send Custom</button>
+        <button type="button" id="btn-permission-allow-all" class="btn-secondary">Allow All</button>
+        <button type="button" id="btn-permission-allow-once" class="btn-primary">Allow Once</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header>
+    <div class="header-content">
+      <div class="logo-area">
+        <h1>✦ Agent Orchestrator</h1>
+        <p class="subtitle">Combine AI agents to build, test, review &amp; ship together</p>
+      </div>
+      <button id="theme-toggle" title="Toggle theme">🌙</button>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <!-- ================================================================
+         Setup Panel (3-step Wizard)
+         ================================================================ -->
+    <section id="setup-panel">
+
+      <!-- Step Indicators -->
+      <div class="wizard-steps">
+        <div class="wizard-step active" data-step="1">
+          <span class="step-number">1</span>
+          <span class="step-label">Select Agents</span>
+        </div>
+        <div class="wizard-line" id="wizard-line-1"></div>
+        <div class="wizard-step" data-step="2">
+          <span class="step-number">2</span>
+          <span class="step-label">Assign Roles</span>
+        </div>
+        <div class="wizard-line" id="wizard-line-2"></div>
+        <div class="wizard-step" data-step="3">
+          <span class="step-number">3</span>
+          <span class="step-label">Configure &amp; Launch</span>
+        </div>
+      </div>
+
+      <!-- Step 1: Agent Detection & Selection -->
+      <div class="step-content active" id="step-1">
+        <div class="step-header">
+          <h2>Detected Agents</h2>
+          <p>Select the AI agents you want to use in your workflow</p>
+          <button id="btn-refresh-agents" class="btn-secondary">↻ Re-scan</button>
+        </div>
+        <div id="agents-grid" class="agents-grid">
+          <!-- Shimmer placeholders shown during detection -->
+          <div class="shimmer-card"></div>
+          <div class="shimmer-card"></div>
+          <div class="shimmer-card"></div>
+          <div class="shimmer-card"></div>
+        </div>
+
+        <!-- Add Custom Agent Section -->
+        <div class="custom-agent-section">
+          <h3>➕ Add Custom CLI Agent</h3>
+          <div class="custom-agent-form">
+            <div class="form-row">
+              <div class="custom-input-group">
+                <input type="text" id="custom-agent-name" placeholder="Name (e.g. Antigravity)" autocomplete="off" />
+              </div>
+              <div class="custom-input-group">
+                <input type="text" id="custom-agent-cmd" placeholder="Command (e.g. antigravity)" autocomplete="off" />
+              </div>
+              <div class="custom-input-group">
+                <input type="text" id="custom-agent-flag" placeholder="Arg Flag (e.g. -p, optional)" autocomplete="off" />
+              </div>
+              <button type="button" id="btn-add-custom-agent" class="btn-secondary">Add Agent</button>
+            </div>
+            <span class="form-hint">Custom agents will be probed on your system PATH and saved locally.</span>
+          </div>
+        </div>
+
+        <div class="step-actions">
+          <button id="btn-step1-next" class="btn-primary" disabled>Continue →</button>
+        </div>
+      </div>
+
+      <!-- Step 2: Role Assignment -->
+      <div class="step-content" id="step-2">
+        <div class="step-header">
+          <h2>Assign Roles</h2>
+          <p>Choose what each agent will do in the workflow</p>
+        </div>
+        <div id="role-assignments" class="role-assignments">
+          <!-- Populated by JS -->
+        </div>
+        <div class="step-actions">
+          <button id="btn-step2-back" class="btn-secondary">← Back</button>
+          <button id="btn-step2-next" class="btn-primary">Continue →</button>
+        </div>
+      </div>
+
+      <!-- Step 3: Project Config & Launch -->
+      <div class="step-content" id="step-3">
+        <div class="step-header">
+          <h2>Configure &amp; Launch</h2>
+          <p>Set your project folder, describe your idea, and launch the workflow</p>
+        </div>
+        <div class="config-form">
+          <div class="form-group">
+            <label for="project-path">📁 Project Folder</label>
+            <input type="text" id="project-path" placeholder="C:\Users\you\your-project" autocomplete="off" />
+            <span class="form-hint">Enter the full path to your project directory</span>
+          </div>
+          <div class="form-group">
+            <label for="idea-input">💡 Your Idea</label>
+            <textarea id="idea-input" rows="5" placeholder="Describe what you want to build, fix, or improve..."></textarea>
+          </div>
+          <div class="form-group">
+            <label>⚡ Workflow Mode</label>
+            <div class="mode-toggle" id="mode-toggle">
+              <button class="mode-btn active" data-mode="sequential" id="mode-sequential">Sequential Pipeline</button>
+              <button class="mode-btn" data-mode="parallel" id="mode-parallel">Parallel Execution</button>
+            </div>
+            <span class="form-hint" id="mode-hint">Agents work one phase at a time: Design → Build → Test → Review → Integrate</span>
+          </div>
+        </div>
+        <div class="step-actions">
+          <button id="btn-step3-back" class="btn-secondary">← Back</button>
+          <button id="btn-launch" class="btn-launch">🚀 Launch Workflow</button>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ================================================================
+         Workflow Monitor Panel (hidden until launch)
+         ================================================================ -->
+    <section id="workflow-panel" class="hidden">
+      <div class="workflow-header">
+        <div>
+          <h2 id="workflow-title">Workflow Running</h2>
+          <p id="workflow-info" class="text-secondary"></p>
+        </div>
+        <div class="workflow-actions">
+          <span id="workflow-timer" class="timer">00:00</span>
+          <button id="btn-stop-workflow" class="btn-danger">⏹ Stop</button>
+          <button id="btn-new-workflow" class="btn-secondary hidden">+ New Workflow</button>
+        </div>
+      </div>
+
+      <!-- Phase Timeline -->
+      <div id="phase-timeline" class="phase-timeline">
+        <!-- Populated by JS -->
+      </div>
+
+      <!-- Agent Output Terminals -->
+      <div id="agent-outputs" class="agent-outputs">
+        <!-- Populated by JS -->
+      </div>
+    </section>
+
+    <!-- ================================================================
+         Workflow History
+         ================================================================ -->
+    <section id="history-panel">
+      <div class="history-header" id="history-toggle">
+        <h3>📋 Workflow History</h3>
+        <span class="toggle-icon">▼</span>
+      </div>
+      <div id="history-list" class="history-list collapsed">
+        <p class="text-muted">No previous workflows</p>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

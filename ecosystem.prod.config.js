@@ -1,0 +1,83 @@
+module.exports = {
+  apps: [
+    {
+      name: 'agent-server',
+      script: 'server_upstash.js',
+      cwd: 'C:\\Users\\yousa\\agent-orchestrator',
+      instances: 1,
+      exec_mode: 'fork',
+      autorestart: true,
+      restart_delay: 5000,
+      max_restarts: 10,
+      max_memory_restart: '300M',
+      watch: false,
+      error_file: 'C:\\Users\\yousa\\agent-orchestrator\\logs\\agent-server-error.log',
+      out_file: 'C:\\Users\\yousa\\agent-orchestrator\\logs\\agent-server-out.log',
+      log_date_format: 'YYYY-MM-DD HH:mm Z'
+    },
+    {
+      name: 'codex-agent',
+      script: 'agent-wrapper-upstash.js',
+      args: '--agent codex',
+      cwd: 'C:\\Users\\yousa\\agent-orchestrator',
+      instances: 1,
+      exec_mode: 'fork',
+      autorestart: true,
+      restart_delay: 3000,
+      max_restarts: 5,
+      max_memory_restart: '200M',
+      watch: false,
+      error_file: 'C:\\Users\\yousa\\agent-orchestrator\\logs\\codex-error.log',
+      out_file: 'C:\\Users\\yousa\\agent-orchestrator\\logs\\codex-out.log',
+      log_date_format: 'YYYY-MM-DD HH:mm Z'
+    },
+    {
+      name: 'opencode-agent',
+      script: 'agent-wrapper-upstash.js',
+      args: '--agent opencode',
+      cwd: 'C:\\Users\\yousa\\agent-orchestrator',
+      instances: 1,
+      exec_mode: 'fork',
+      autorestart: true,
+      restart_delay: 3000,
+      max_restarts: 5,
+      max_memory_restart: '200M',
+      watch: false,
+      error_file: 'C:\\Users\\yousa\\agent-orchestrator\\logs\\opencode-error.log',
+      out_file: 'C:\\Users\\yousa\\agent-orchestrator\\logs\\opencode-out.log',
+      log_date_format: 'YYYY-MM-DD HH:mm Z'
+    },
+    {
+      name: 'gemini-agent',
+      script: 'agent-wrapper-upstash.js',
+      args: '--agent gemini',
+      cwd: 'C:\\Users\\yousa\\agent-orchestrator',
+      instances: 1,
+      exec_mode: 'fork',
+      autorestart: true,
+      restart_delay: 3000,
+      max_restarts: 5,
+      max_memory_restart: '200M',
+      watch: false,
+      error_file: 'C:\\Users\\yousa\\agent-orchestrator\\logs\\gemini-error.log',
+      out_file: 'C:\\Users\\yousa\\agent-orchestrator\\logs\\gemini-out.log',
+      log_date_format: 'YYYY-MM-DD HH:mm Z'
+    },
+    {
+      name: 'copilot-agent',
+      script: 'agent-wrapper-upstash.js',
+      args: '--agent copilot',
+      cwd: 'C:\\Users\\yousa\\agent-orchestrator',
+      instances: 1,
+      exec_mode: 'fork',
+      autorestart: true,
+      restart_delay: 3000,
+      max_restarts: 5,
+      max_memory_restart: '200M',
+      watch: false,
+      error_file: 'C:\\Users\\yousa\\agent-orchestrator\\logs\\copilot-error.log',
+      out_file: 'C:\\Users\\yousa\\agent-orchestrator\\logs\\copilot-out.log',
+      log_date_format: 'YYYY-MM-DD HH:mm Z'
+    }
+  ]
+};
